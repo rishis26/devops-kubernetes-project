@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8080;
 
 app.get("/", (req, res) => {
   res.json({
-    message: "DevOps Learning Project API v2",
+    message: "DevOps and Kubernetes Learning Project",
   });
 });
 
