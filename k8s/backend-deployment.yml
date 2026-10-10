@@ -5,7 +5,7 @@ metadata:
   name: backend-deployment
 
 spec:
-  replicas: 2 # this is the most imp part, this will make 2 replicas, enabling self healing part !
+  replicas: 2
 
   selector:
     matchLabels:
