@@ -4,6 +4,8 @@ kind: Pod
 
 metadata:
   name: backend-pod
+  labels:
+    app: backend
 
 spec:
   containers:
