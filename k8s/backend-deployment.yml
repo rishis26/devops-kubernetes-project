@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: backend
-          image: devops-backend:local
+          image: devops-backend:v2
           ports:
             - containerPort: 8080
